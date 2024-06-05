@@ -1,0 +1,10 @@
+DTO - Data Transfer Object
+Olyan objektum amit azért hozunk létre, hogy a továbbított adat típusát leírjuk
+Legtöbb esetben adattáblának megfeleltethető, módosításokkal
+ - pl. létrehozásnál nem kell id, akkor azt nem fogja tartalmazni.
+
+Partial:
+- Egy típusból képzett objektum, ugyan azokat az adatokat engedi, mint az eredeti típus, de nem kötelező minden adattagot megadni.
+
+típuson ? -> nem kötelező mező
+! -> ha a mező nem undefined, ellenkező esetben hibára fog futni
